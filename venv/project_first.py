@@ -19,6 +19,8 @@ register_site.click()
 # click להרשמה
 driver.find_element_by_class_name("text-btn").click()
 
+print("change done 7/22")
+
 #register page
 driver.find_element_by_xpath("//input[@placeholder='שם פרטי']").send_keys("Avi")
 driver.find_element_by_xpath("//input[@placeholder='מייל']").send_keys("user@test.local")
